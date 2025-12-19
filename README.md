@@ -48,7 +48,7 @@ fertilizer_project/
 
 
 ---
-
+<pre>
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
@@ -60,3 +60,4 @@ fertilizer_project/
 3. Run the application:
    ```bash
    streamlit run app.py
+</pre>
