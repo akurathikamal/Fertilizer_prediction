@@ -5,10 +5,9 @@ import pandas as pd
 import os
 
 
-MODEL_PATH = os.path.join("..", "model", "fertilizer_model.pkl")
-ENCODERS_PATH = os.path.join("..", "model", "encoders.pkl")
-DATA_PATH = os.path.join("..", "data", "fertilizer_data.csv")
-
+MODEL_PATH = os.path.join("model", "fertilizer_model.pkl")
+ENCODERS_PATH = os.path.join("model", "encoders.pkl")
+DATA_PATH = os.path.join("data", "fertilizer_data.csv")
 
 try:
     model = pickle.load(open(MODEL_PATH, "rb"))
