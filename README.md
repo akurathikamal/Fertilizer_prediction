@@ -51,13 +51,10 @@ fertilizer_project/
 <pre>
 ## 🚀 Getting Started
 1. Clone the repository:
-   ```bash
    git clone https://github.com/akurathikamal/Fertilizer_prediction.git
    cd fertilizer_project/app
 2. Install dependencies:
-   ```bash
    pip install -r requirements.txt
 3. Run the application:
-   ```bash
    streamlit run app.py
 </pre>
